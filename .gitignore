@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual Environment
+env/
+venv/
+cg_env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+
+# Taichi 缓存
+taichi_cache/
+*.tcm
+
+# 系统文件
+.DS_Store
+Thumbs.db

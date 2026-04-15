@@ -28,8 +28,9 @@ conda activate cg_env
 
 # 安装依赖
 pip install taichi numpy
+```
 
-# 代码结构
+## 代码结构
 贝塞尔曲线.py
 ├── de_casteljau()          # CPU 端曲线计算
 ├── clear_pixels()          # GPU 清屏 Kernel
