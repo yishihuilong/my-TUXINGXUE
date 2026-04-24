@@ -10,6 +10,10 @@
 python 3.13+
 Taichi 1.7+
 
+## 效果演示
+
+![Demo](光照模型演示.gif)
+
 ## 安装依赖
 
 ```bash
@@ -20,6 +24,3 @@ conda activate cg_env
 pip install taichi
 
 
-## 效果演示
-
-![Demo](光照模型演示.gif)
