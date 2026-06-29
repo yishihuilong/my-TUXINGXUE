@@ -20,7 +20,6 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
@@ -110,6 +109,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+cg_env/
 
 # Spyder project settings
 .spyderproject
@@ -149,22 +149,34 @@ taichi_cache/
 *.spv
 *.ptx
 *.bc
+taichi/
+*.tcm
 
-# Output images / videos (if you generate any)
+# Output images / videos
 *.png
 *.jpg
 *.jpeg
 *.gif
 *.mp4
 *.avi
+*.mov
 output/
 results/
+renders/
 
 # Logs
 *.log
 logs/
 
+# Databases
+*.sql
+*.sqlite
+*.db
+
 # OS generated files
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+# Project specific
+imgui.ini
